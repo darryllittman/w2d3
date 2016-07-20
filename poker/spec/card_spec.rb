@@ -1,3 +1,6 @@
+require 'rspec'
+require 'card'
+
 describe Card do
   let(:card) { Card.new(8, :h) }
   describe '#initialize' do
